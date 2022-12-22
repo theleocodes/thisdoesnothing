@@ -78,12 +78,12 @@ const FontFamilySection: React.FC<{
 						"--delay": "150ms",
 					}}
 				>
-					<h1 className="font-serif italic bold">AaBbCc</h1>
+					<h1 className="font-serif italic bold">HalaMadrid!</h1>
 					<h4 className="font-serif bold font-tertiary">
-						1234567890
+						92:48
 					</h4>
 					<h6 className="font-serif italic bold font-secondary text-sm font-extra">
-						ONLY HUMANS!
+						Lisbon
 					</h6>
 				</div>
 			</div>
