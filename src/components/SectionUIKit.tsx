@@ -287,7 +287,7 @@ const ToastSection: React.FC<{
 							"--delay": `${0.2}s`,
 						}}
 					>
-						
+					hiiiii!!
 					</Button>
 					<Button
 						variant="primary"
@@ -299,7 +299,7 @@ const ToastSection: React.FC<{
 							"--delay": `${0.2 + 0.05}s`,
 						}}
 					>
-						
+						holaa
 					</Button>
 					<Button
 						variant="primary"
@@ -311,7 +311,7 @@ const ToastSection: React.FC<{
 						}}
 						onClick={notifyInfo}
 					>
-					
+					hallo
 					</Button>
 					<Button
 						variant="primary"
@@ -323,7 +323,7 @@ const ToastSection: React.FC<{
 						}}
 						onClick={notifyError}
 					>
-						
+						salut
 					</Button>
 					<Button
 						variant="primary"
@@ -335,7 +335,7 @@ const ToastSection: React.FC<{
 						}}
 						onClick={notifySuccess}
 					>
-						
+					privet
 					</Button>
 				</div>
 			</div>

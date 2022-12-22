@@ -36,7 +36,7 @@ const Nav = () => {
 					onTouchStart={() => setShowGithub(true)}
 					onMouseOut={() => setShowGithub(false)}
 					onTouchEnd={() => setShowGithub(false)}
-					href="https://github.com/adityassharma-ss"
+					href="https://github.com/adityassharma-ss/thisdoesnothing"
 					target={`_blank`}
 					rel="noreferrer"
 					className="justify-center bg-transparent bg-opacity-25 border border-green-300 border-opacity-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-50 hover:shadow-md"
