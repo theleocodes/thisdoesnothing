@@ -14,19 +14,19 @@ const Button: React.FC<Props> = ({
 	switch (variant) {
 		case "primary":
 			baseClassName.current =
-				"bg-yellow-400 bg-opacity-25 border border-green-300 border-opacity-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-0 hover:shadow-md justify-center";
+				"bg-yellow-400 bg-opacity-25 border border-yellow-300 border-opacity-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-0 hover:shadow-md justify-center";
 			break;
 		case "secondary":
 			baseClassName.current =
-				"justify-center bg-transparent bg-opacity-25 border border-green-300 border-opacity-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-50 hover:shadow-md";
+				"justify-center bg-transparent bg-opacity-25 border border-yellow-300 border-opacity-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-50 hover:shadow-md";
 			break;
 		case "tertiary":
 			baseClassName.current =
-				"bg-gray-400 bg-opacity-25 border border-gray-300 border-green-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-0 hover:shadow-md justify-center";
+				"bg-gray-400 bg-opacity-25 border border-gray-300 border-yellow-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-0 hover:shadow-md justify-center";
 			break;
 		default:
 			baseClassName.current =
-				"bg-green-400 bg-opacity-25 border border-green-300 border-opacity-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-0 hover:shadow-md justify-center";
+				"bg-yellow-400 bg-opacity-25 border border-yellow-300 border-opacity-25 text-white flex items-center gap-2 py-2 px-4 font-semibold tracking-normal rounded-2xl transition-colors hover:border-opacity-0 hover:shadow-md justify-center";
 			break;
 	}
 	return (

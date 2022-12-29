@@ -13,7 +13,7 @@ const Section4 = () => {
 						className="hover:text-white transition-colors duration-400"
 						href={`/`}
 					>
-						{" "}this does nothing
+						{" "}minimal info
 					</a>
 				</span>
 				<span className="inline-block pl-2">

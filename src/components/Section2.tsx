@@ -5,7 +5,7 @@ import Card from "@/elements/Card";
 
 const Section2 = () => {
 	const text =
-		"Why are you here? To laugh? To play? To listen?".split(
+		"Why are you here? To listen? I love Music. Here are some of my favorites".split(
 			" "
 		);
 
@@ -30,7 +30,8 @@ const Section2 = () => {
 									strokeWidth={3}
 									animationDuration={400}
 									animationDelay={1500}
-									color="rgb(130 255 0 / 0.5)"
+									color="	
+									rgb(255,255,0)"
 								>
 									<span className="text-white font-bold ">
 										{word}
@@ -70,11 +71,9 @@ const Section2 = () => {
 						</div>
 						<div>
 							<h2 className="fleading-normal text-xl font-bold text-gray-300">
-								What?
+								<a href="https://www.youtube.com/watch?v=q7qdpyjHyNk">The Perfect Girl By Mareux</a>
 							</h2>
 							<p className="text-gray-500 max-w-xs mt-0.5">
-								Do you want to know what I'm doing? 
-								Well you can't
 							</p>
 						</div>
 					</Card>
@@ -109,17 +108,17 @@ const Section2 = () => {
 						</div>
 						<div>
 							<h2 className="leading-normal text-xl font-bold text-gray-300">
-								NOT AGAIN!!
+								<a href="https://www.youtube.com/watch?v=Cl5Vkd4N03Q">After Dark By Mr. Kitty</a>
 							</h2>
 							<p className="text-gray-500 max-w-xs mt-0.5">
-							    Sorry! But i really like Bruce Wayne{" "}
 								<RoughNotation
 									type="circle"
 									show={true}
 									strokeWidth={3}
 									animationDuration={400}
 									animationDelay={2500}
-									color="rgb(130 255 0 / 0.5)"
+									color="	
+									rgb(255,255,0)"
 								>
 									<span className="font-bold "></span>
 								</RoughNotation>
@@ -154,10 +153,10 @@ const Section2 = () => {
 						</div>
 						<div>
 							<h2 className="leading-normal text-xl font-bold text-gray-300">
-								Not gonna lie
+								<a href="https://www.youtube.com/watch?v=50VNCymT-Cs">Let Me Down Slowly By Alec Benjamin</a>
 							</h2>
 							<p className="text-gray-500 max-w-xs mt-0.5">
-								I'm a huge fan of Nolan and i love his movies
+							
 							</p>
 						</div>
 					</Card>
@@ -186,22 +185,23 @@ const Section2 = () => {
 							</svg>
 						</div>
 						<div>
-							<h2 className="leading-normal text-xl font-bold text-gray-300">
-								At the end of the day
-							</h2>
+							
 							<p className="text-gray-500 max-w-xs mt-0.5">
-								You are on{" "}
+								
 								<RoughNotation
 									type="underline"
 									show={true}
 									strokeWidth={3}
 									animationDuration={400}
 									animationDelay={2500}
-									color="rgb(130 255 0 / 0.5)"
+									color="	
+									rgb(255,255,0)"
 								>
-									<span>YOUR</span>
-								</RoughNotation>{" "}
-								own!
+									<h2 className="leading-normal text-xl font-bold text-gray-300">
+							<a href="https://www.youtube.com/watch?v=XR7Ev14vUh8">Pray For Me By The Weeknd</a>
+							</h2>
+								</RoughNotation>{""}
+								
 							</p>
 						</div>
 					</Card>
